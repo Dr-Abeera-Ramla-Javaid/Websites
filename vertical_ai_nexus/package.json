@@ -17,6 +17,7 @@
     "next": "14.2.16",
     "react": "^18",
     "react-dom": "^18",
+    "react-toastify": "^11.0.3",
     "tailwind-merge": "^3.0.1",
     "tailwindcss-animate": "^1.0.7"
   },
@@ -24,6 +25,7 @@
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",
+    "@types/react-toastify": "^4.0.2",
     "eslint": "^8",
     "eslint-config-next": "14.2.16",
     "postcss": "^8",
