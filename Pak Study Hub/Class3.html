@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>EduSpark - Class 3 Books</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Segoe UI', Arial, sans-serif;
+            background: linear-gradient(120deg, #e0f7fa 0%, #f8fafc 100%);
+            color: #222;
+        }
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background: #4F8A8B;
+            padding: 16px 40px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+        }
+        .logo {
+            display: flex;
+            align-items: center;
+        }
+        .logo-text {
+            font-size: 2rem;
+            font-weight: bold;
+            color: #fff;
+            margin-left: 12px;
+            letter-spacing: 2px;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin-left: 24px;
+            font-size: 1.1rem;
+            transition: color 0.2s;
+        }
+        nav a:hover {
+            color: #ffd166;
+        }
+        h2 {
+            color: #4F8A8B;
+            margin: 32px 0 18px 20px;
+            font-size: 2rem;
+        }
+        .books-list {
+            display: flex;
+            gap: 24px;
+            flex-wrap: wrap;
+            margin-bottom: 24px;
+            padding-left: 20px;
+        }
+        .book-card {
+            background: #fff;
+            border-radius: 14px;
+            box-shadow: 0 2px 12px rgba(79,138,139,0.08);
+            padding: 24px 18px;
+            width: 260px;
+            margin-bottom: 16px;
+            text-align: left;
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+        .book-card:hover {
+            transform: translateY(-6px) scale(1.03);
+            box-shadow: 0 8px 24px rgba(79,138,139,0.15);
+        }
+        .book-card h3 {
+            margin-top: 0;
+            color: #4F8A8B;
+            font-size: 1.2rem;
+        }
+        .download-btn {
+            display: inline-block;
+            margin-top: 12px;
+            background: #ffd166;
+            color: #222;
+            padding: 8px 22px;
+            border-radius: 20px;
+            text-decoration: none;
+            font-weight: bold;
+            border: none;
+            transition: background 0.2s, color 0.2s;
+        }
+        .download-btn:hover {
+            background: #4F8A8B;
+            color: #fff;
+        }
+        footer {
+            text-align: center;
+            padding: 18px 0;
+            background: #4F8A8B;
+            color: #fff;
+            font-size: 1rem;
+            margin-top: 40px;
+        }
+        @media (max-width: 900px) {
+            .books-list {
+                flex-direction: column;
+                align-items: center;
+                padding-left: 0;
+            }
+            .book-card {
+                width: 90%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <svg width="40" height="40" viewBox="0 0 48 48">
+                <circle cx="24" cy="24" r="22" fill="#4F8A8B" stroke="#fff" stroke-width="3"/>
+                <text x="50%" y="55%" text-anchor="middle" fill="#fff" font-size="18" font-family="Arial" dy=".3em">ES</text>
+            </svg>
+            <span class="logo-text">EduSpark</span>
+        </div>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="books.html">Books</a>
+            <a href="notes.html">Notes</a>
+            <a href="pastpapers.html">Past Papers</a>
+        </nav>
+    </header>
+    <h2>Class 3 Books</h2>
+    <div class="books-list">
+        <div class="book-card">
+            <h3>English 3</h3>
+            <p>Class 3</p>
+            <a href="Books/Class3/english 3.pdf" class="download-btn" target="_blank">View / Download</a>
+        </div>
+        <div class="book-card">
+            <h3>Ethics 3</h3>
+            <p>Class 3</p>
+            <a href="Books/Class3/ethics 3.pdf" class="download-btn" target="_blank">View / Download</a>
+        </div>
+        <div class="book-card">
+            <h3>General Knowledge 3</h3>
+            <p>Class 3</p>
+            <a href="Books/Class3/gk 3.pdf" class="download-btn" target="_blank">View / Download</a>
+        </div>
+        <div class="book-card">
+            <h3>Islamiat 3</h3>
+            <p>Class 3</p>
+            <a href="Books/Class3/islamiat 3.pdf" class="download-btn" target="_blank">View / Download</a>
+        </div>
+        <div class="book-card">
+            <h3>Math 3</h3>
+            <p>Class 3</p>
+            <a href="Books/Class3/math 3.pdf" class="download-btn" target="_blank">View / Download</a>
+        </div>
+        <div class="book-card">
+            <h3>Urdu 3</h3>
+            <p>Class 3</p>
+            <a href="Books/Class3/urdu 3.pdf" class="download-btn" target="_blank">View / Download</a>
+        </div>
+    </div>
+    <footer>
+        &copy; 2025 EduSpark. All rights reserved.
+    </footer>
+</body>
+</html>

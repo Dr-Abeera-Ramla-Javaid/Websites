@@ -1,0 +1,113 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background: linear-gradient(120deg, #e0f7fa 0%, #f8fafc 100%);
+    color: #222;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #4F8A8B;
+    padding: 16px 40px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo-text {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #fff;
+    margin-left: 12px;
+    letter-spacing: 2px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 24px;
+    font-size: 1.1rem;
+    transition: color 0.2s;
+}
+
+nav a:hover {
+    color: #ffd166;
+}
+
+.hero {
+    text-align: center;
+    padding: 80px 20px 40px 20px;
+    background: linear-gradient(120deg, #4F8A8B 0%, #72c3dc 100%);
+    color: #fff;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    margin-bottom: 16px;
+    letter-spacing: 1px;
+}
+
+.hero p {
+    font-size: 1.3rem;
+    margin-bottom: 32px;
+}
+
+.cta-btn {
+    background: #ffd166;
+    color: #222;
+    padding: 14px 36px;
+    border-radius: 30px;
+    font-size: 1.1rem;
+    text-decoration: none;
+    font-weight: bold;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.08);
+    transition: background 0.2s, color 0.2s;
+}
+
+.cta-btn:hover {
+    background: #fff;
+    color: #4F8A8B;
+}
+
+.features {
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+    margin: 40px 0;
+    flex-wrap: wrap;
+}
+
+.feature-card {
+    background: #fff;
+    border-radius: 16px;
+    box-shadow: 0 2px 12px rgba(79,138,139,0.08);
+    padding: 32px 24px;
+    width: 280px;
+    text-align: center;
+    margin: 12px;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.feature-card:hover {
+    transform: translateY(-8px) scale(1.03);
+    box-shadow: 0 8px 24px rgba(79,138,139,0.15);
+}
+
+.feature-card h2 {
+    color: #4F8A8B;
+    margin-bottom: 12px;
+}
+
+footer {
+    text-align: center;
+    padding: 18px 0;
+    background: #4F8A8B;
+    color: #fff;
+    font-size: 1rem;
+    margin-top: 40px;
+}
