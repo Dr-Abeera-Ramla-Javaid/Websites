@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Lesson 1 – Fractions | Learn-with-Me</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+<header>
+  <a href="index.html">← Back to Home</a>
+  <h1>Lesson 1: What Is a Fraction?</h1>
+</header>
+
+<main>
+  <section class="content">
+    <p>A <strong>fraction</strong> shows parts of a whole.  
+       The top number is the <em>numerator</em>, and the bottom is the <em>denominator</em>.</p>
+
+    <div class="interactive">
+      <label>Move slider to change slices:
+        <input type="range" id="pie" min="1" max="12" value="4">
+      </label>
+      <p id="pieText">4 / 12 = ⅓ of the pie</p>
+    </div>
+  </section>
+
+  <section class="cta">
+    <a href="quiz.html?lesson=1" class="button">Take the Quiz</a>
+  </section>
+</main>
+
+<script>
+  const slider = document.getElementById('pie');
+  const text = document.getElementById('pieText');
+  slider.oninput = () => {
+    const v = slider.value;
+    text.textContent = `${v} / 12 = ${v}/12 of the pie`;
+  };
+</script>
+
+</body>
+</html>
